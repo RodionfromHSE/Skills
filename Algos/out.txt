@@ -1,0 +1,45 @@
+Action 0
+Queue: deque([]), Items defaultdict(<class 'int'>, {})
+After
+Queue: deque([Client(arrival_t=10, item=1)]), Items defaultdict(<class 'int'>, {1: 0})
+Action 1
+Queue: deque([Client(arrival_t=10, item=1)]), Items defaultdict(<class 'int'>, {1: 0})
+After
+Queue: deque([Client(arrival_t=10, item=1), Client(arrival_t=20, item=1)]), Items defaultdict(<class 'int'>, {1: 0})
+Action 2
+Queue: deque([Client(arrival_t=10, item=1), Client(arrival_t=20, item=1)]), Items defaultdict(<class 'int'>, {1: 0})
+After
+Queue: deque([Client(arrival_t=10, item=1), Client(arrival_t=20, item=1), Client(arrival_t=30, item=1)]), Items defaultdict(<class 'int'>, {1: 0})
+Action 3
+Queue: deque([Client(arrival_t=10, item=1), Client(arrival_t=20, item=1), Client(arrival_t=30, item=1)]), Items defaultdict(<class 'int'>, {1: 0})
+After
+Queue: deque([Client(arrival_t=10, item=1), Client(arrival_t=20, item=1), Client(arrival_t=30, item=1), Client(arrival_t=40, item=2)]), Items defaultdict(<class 'int'>, {1: 0})
+Action 4
+Queue: deque([Client(arrival_t=10, item=1), Client(arrival_t=20, item=1), Client(arrival_t=30, item=1), Client(arrival_t=40, item=2)]), Items defaultdict(<class 'int'>, {1: 0})
+After
+Queue: deque([Client(arrival_t=10, item=1), Client(arrival_t=20, item=1), Client(arrival_t=30, item=1), Client(arrival_t=40, item=2), Client(arrival_t=50, item=2)]), Items defaultdict(<class 'int'>, {1: 0})
+Action 5
+Queue: deque([Client(arrival_t=10, item=1), Client(arrival_t=20, item=1), Client(arrival_t=30, item=1), Client(arrival_t=40, item=2), Client(arrival_t=50, item=2)]), Items defaultdict(<class 'int'>, {1: 0})
+After
+Queue: deque([Client(arrival_t=10, item=1), Client(arrival_t=20, item=1), Client(arrival_t=30, item=1), Client(arrival_t=40, item=2), Client(arrival_t=50, item=2), Client(arrival_t=60, item=1)]), Items defaultdict(<class 'int'>, {1: 0})
+Action 6
+Queue: deque([Client(arrival_t=10, item=1), Client(arrival_t=20, item=1), Client(arrival_t=30, item=1), Client(arrival_t=40, item=2), Client(arrival_t=50, item=2), Client(arrival_t=60, item=1)]), Items defaultdict(<class 'int'>, {1: 0})
+After
+Queue: deque([Client(arrival_t=10, item=1), Client(arrival_t=20, item=1), Client(arrival_t=30, item=1), Client(arrival_t=40, item=2), Client(arrival_t=50, item=2), Client(arrival_t=60, item=1), Client(arrival_t=70, item=3)]), Items defaultdict(<class 'int'>, {1: 0})
+Action 7
+Queue: deque([Client(arrival_t=10, item=1), Client(arrival_t=20, item=1), Client(arrival_t=30, item=1), Client(arrival_t=40, item=2), Client(arrival_t=50, item=2), Client(arrival_t=60, item=1), Client(arrival_t=70, item=3)]), Items defaultdict(<class 'int'>, {1: 0})
+After
+Queue: deque([Client(arrival_t=10, item=1), Client(arrival_t=20, item=1), Client(arrival_t=30, item=1), Client(arrival_t=40, item=2), Client(arrival_t=50, item=2), Client(arrival_t=60, item=1), Client(arrival_t=70, item=3), Client(arrival_t=80, item=3)]), Items defaultdict(<class 'int'>, {1: 0})
+Action 8
+Queue: deque([Client(arrival_t=10, item=1), Client(arrival_t=20, item=1), Client(arrival_t=30, item=1), Client(arrival_t=40, item=2), Client(arrival_t=50, item=2), Client(arrival_t=60, item=1), Client(arrival_t=70, item=3), Client(arrival_t=80, item=3)]), Items defaultdict(<class 'int'>, {1: 0})
+After
+Queue: deque([Client(arrival_t=10, item=1), Client(arrival_t=20, item=1), Client(arrival_t=30, item=1), Client(arrival_t=40, item=2), Client(arrival_t=50, item=2), Client(arrival_t=60, item=1), Client(arrival_t=70, item=3), Client(arrival_t=80, item=3), Client(arrival_t=90, item=1)]), Items defaultdict(<class 'int'>, {1: 0})
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
